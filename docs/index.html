@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#5c2be2">
+  <meta name="description" content="مجموعة اختصارات آيفون مفيدة وسهلة التثبيت والمشاركة.">
+  <title>اختصارات</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav" aria-label="التنقل الرئيسي">
+      <a class="brand" href="#top" aria-label="الصفحة الرئيسية">
+        <span class="app-icon" aria-hidden="true"><i></i><b></b></span>
+        <span>اختصارات</span>
+      </a>
+      <a class="nav-link" href="#shortcuts">كل الاختصارات</a>
+    </nav>
+
+    <section id="top" class="intro">
+      <div class="eyebrow">اختصارات آيفون مفيدة</div>
+      <h1>أنجز أكثر. <span>بلمسة واحدة.</span></h1>
+      <p>مجموعة مختارة من الاختصارات اليومية، جاهزة للإضافة إلى تطبيق الاختصارات ومشاركتها مع الأصدقاء والعائلة.</p>
+      <a class="primary" href="#shortcuts">تصفح الاختصارات <span aria-hidden="true">↓</span></a>
+    </section>
+  </header>
+
+  <main id="shortcuts" class="content">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow dark">المكتبة</p>
+        <h2>اختر اختصارًا</h2>
+      </div>
+      <label class="search">
+        <span aria-hidden="true">⌕</span>
+        <span class="sr-only">ابحث في الاختصارات</span>
+        <input id="search" type="search" placeholder="ابحث عن اختصار…" autocomplete="off">
+      </label>
+    </div>
+
+    <div id="shortcut-grid" class="grid" aria-live="polite"></div>
+    <p id="empty-state" class="empty" hidden>لا توجد نتائج مطابقة.</p>
+  </main>
+
+  <footer>
+    <p>صُنعت لتسهيل يومك 💜</p>
+    <p class="note">هذه صفحة مستقلة وليست تابعة لشركة Apple.</p>
+  </footer>
+
+  <script src="shortcuts.js"></script>
+</body>
+</html>
